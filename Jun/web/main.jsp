@@ -18,7 +18,7 @@
 		<flash-message name="alertas">
 		</flash-message>
 	</div>
-	<div class="footer"><div style="text-align: center; width: 100%;">- Drechos reservados. Hay soy una sonza -</div></div>
+	<div class="footer"><div style="text-align: center; width: 100%;">- JUN-</div></div>
 </body>
 </html>
 

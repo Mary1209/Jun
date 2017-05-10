@@ -23,6 +23,7 @@
                          <a href="#" uib-dropdown-toggle><span class="glyphicon" aria-hidden="true"></span> Juegos <b class="caret"></b></a>
                          <ul uib-dropdown-menu role="menu" aria-labelledby="split-button">
                             <li role="menuitem"><a href="#!/memoria">Memoria</a></li>
+                            <li role="menuitem"><a href="#!/memoria"> InicarJuego</li>
                          </ul>
                     </li>
                     

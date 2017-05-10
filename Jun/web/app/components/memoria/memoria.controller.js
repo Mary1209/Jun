@@ -21,7 +21,17 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
             mi.cartas = [];
             mi.cartas[1] = {};          
             
-            mi.cartas[1].img = "assets/img/1.png"
+            mi.cartas[1] = "assets/img/1.png";
+            mi.cartas[2] = "assets/img/2.png";
+            mi.cartas[3] = "assets/img/3.png";
+            mi.cartas[4] = "assets/img/4.png";
+            mi.cartas[5] = "assets/img/5.pgn";
+            mi.cartas[6] = "assets/img/6.png";
+            mi.cartas[7] = "assets/img/7.png";
+            mi.cartas[8] = "assets/img/8.png";
+            mi.cartas[9] = "assets/img/9.png";
+            
+          
             
             
             mi.voltearCarta=function(pos){

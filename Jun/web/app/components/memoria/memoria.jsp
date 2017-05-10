@@ -406,7 +406,7 @@
                         <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                     </div>
                     <div class="back" style="background: lightgreen;">
-                        <img src="{{ memoriac.cartas[1].img }}" style=" width: 100px ; height: 110px ;">
+                        <img src="{{ memoriac.cartas[1] }}" style=" width: 100px ; height: 110px ;">
                     </div>
                     </div>
                     </div>
@@ -422,7 +422,7 @@
                         <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                         </div>
                         <div class="back" style="background: lightgreen;">
-                            <img src="{{ memoriac.cartas[2].img }}" style=" width: 100px ; height: 110px ;">
+                            <img src="{{ memoriac.cartas[2] }}" style=" width: 100px ; height: 110px ;">
 
                         </div>
                         </div>
@@ -438,7 +438,7 @@
                             <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                             </div>
                              <div class="back" style="background: lightgreen;">
-                                 <img src="{{ memoriac.cartas[3].img }}" style=" width: 100px ; height: 110px ;">
+                                 <img src="{{ memoriac.cartas[3] }}" style=" width: 100px ; height: 110px ;">
 
                             </div>
                             </div>
@@ -458,7 +458,7 @@
                     <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                     </div>
                     <div class="back" style="background: lightgreen;">
-                        <img src="{{ memoriac.cartas[4].img }}" style=" width: 100px ; height: 110px ;">
+                        <img src="{{ memoriac.cartas[4] }}" style=" width: 100px ; height: 110px ;">
 
                     </div>   
                     </div>   
@@ -474,7 +474,7 @@
                         <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                          </div>
                         <div class="back" style="background: lightgreen;">
-                            <img src="{{ memoriac.cartas[5].img }}" style=" width: 100px ; height: 110px ;">
+                            <img src="{{ memoriac.cartas[5] }}" style=" width: 100px ; height: 110px ;">
 
                         </div>   
                         </div>   
@@ -490,7 +490,7 @@
                             <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                             </div>
                             <div class="back" style="background: lightgreen;">
-                               <img src="{{ memoriac.cartas[6].img }}" style=" width: 100px ; height: 110px ;"> 
+                               <img src="{{ memoriac.cartas[6] }}" style=" width: 100px ; height: 110px ;"> 
                             </div>   
                             </div>   
                             </div> 
@@ -511,7 +511,7 @@
                     <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                     </div>
                     <div class="back" style="background: lightgreen;">
-                        <img src="{{ memoriac.cartas[7].img }}" style=" width: 100px ; height: 110px ;">
+                        <img src="{{ memoriac.cartas[7] }}" style=" width: 100px ; height: 110px ;">
                     </div>   
                     </div>      
                     </div>  
@@ -526,7 +526,7 @@
                         <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                         </div>
                         <div class="back" style="background: lightgreen;">
-                            <img src="{{ memoriac.cartas[8].img }}" style=" width: 100px ; height: 110px ;">
+                            <img src="{{ memoriac.cartas[8] }}" style=" width: 100px ; height: 110px ;">
 
                         </div>   
                         </div>      
@@ -542,7 +542,7 @@
                             <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                              </div>
                             <div class="back" style="background: lightgreen;">
-                            <img src="{{ memoriac.cartas[9].img }}" style=" width: 100px ; height: 110px ;">
+                            <img src="{{ memoriac.cartas[9] }}" style=" width: 100px ; height: 110px ;">
                             </div>   
                             </div>      
                             </div>  

@@ -22,14 +22,14 @@
                     <li uib-dropdown>
                          <a href="#" uib-dropdown-toggle><span class="glyphicon" aria-hidden="true"></span> Juegos <b class="caret"></b></a>
                          <ul uib-dropdown-menu role="menu" aria-labelledby="split-button">
-                            <li role="menuitem"><a href="#!/memoria">Memoria</a></li>
-                            <li role="menuitem"><a href="#!/memoria"> InicarJuego</li>
+                            <li role="menuitem"><a href="#!/memoria">Memoria</a>
+                                <ul> 
+                                  
+                                    <li role="menuitem"><a href="#!/memoria" display:done> Nivel 1</a></li>
+                                    <li role="menuitem"><a href="#!/memoria"> Nivel 2</a></li>
+                              
                          </ul>
-                    </li>
-                    
-                    
-                    
-	            
+                    </li> 
 	        </div>
-	    </div>
+	  </div>
 	</nav>

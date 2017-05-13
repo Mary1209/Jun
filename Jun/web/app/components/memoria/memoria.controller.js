@@ -17,6 +17,17 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
             mi.flip7 = false;
             mi.flip8 = false;
             mi.flip9 = false;
+            mi.flip10 = false;
+            mi.flip11 = false;
+            mi.flip12 = false;
+            mi.flip13 = false;
+            mi.flip14 = false;
+            mi.flip15 = false;
+            mi.flip16 = false;
+            mi.flip17 = false;
+            mi.flip18 = false;
+            mi.flip19 = false;
+            mi.flip20 = false;
             
             mi.cartas = [];
             mi.cartas[1] = {};          
@@ -30,6 +41,20 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
             mi.cartas[7] = "assets/img/7.png";
             mi.cartas[8] = "assets/img/8.png";
             mi.cartas[9] = "assets/img/9.png";
+            mi.cartas[10] = "assets/img/10.png";
+            mi.cartas[11] = "assets/img/11.png";
+            mi.cartas[12] = "assets/img/12.png";
+            mi.cartas[13] = "assets/img/13.png";
+            mi.cartas[14] = "assets/img/14.png";
+            mi.cartas[15] = "assets/img/15.png";
+            mi.cartas[16] = "assets/img/16.png";
+            mi.cartas[17] = "assets/img/17.png";
+            mi.cartas[18] = "assets/img/18.png";
+            mi.cartas[19] = "assets/img/19.png";
+            mi.cartas[20] = "assets/img/20.png";
+            
+            
+            
             
           
             
@@ -62,7 +87,40 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
                         break;   
                      case 9:
                         mi.flip9=!mi.flip9;
+                        break; 
+                    case 10:
+                        mi.flip10=!mi.flip10;
+                        break; 
+                     case 11:
+                        mi.flip11=!mi.flip11;
                         break;   
+                    case 12:
+                        mi.flip12=!mi.flip12;
+                        break;
+                    case 13:
+                        mi.flip13=!mi.flip13;
+                        break; 
+                    case 14:
+                        mi.flip14=!mi.flip14;
+                        break;     
+                    case 15:
+                        mi.flip15=!mi.flip15;
+                        break;  
+                    case 16:
+                        mi.flip16=!mi.flip16;
+                        break; 
+                    case 17:
+                        mi.flip17=!mi.flip17;
+                        break;  
+                     case 18:
+                        mi.flip18=!mi.flip18;
+                        break;  
+                      case 19:
+                        mi.flip19=!mi.flip19;
+                        break;  
+                     case 20:
+                        mi.flip20=!mi.flip20;
+                        break;  
                 }
                 
                 

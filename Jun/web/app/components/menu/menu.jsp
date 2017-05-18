@@ -22,11 +22,11 @@
                     <li uib-dropdown>
                          <a href="#" uib-dropdown-toggle><span class="glyphicon" aria-hidden="true"></span> Juegos <b class="caret"></b></a>
                          <ul uib-dropdown-menu role="menu" aria-labelledby="split-button">
-                            <li role="menuitem"><a href="#!/memoria">Memoria</a>
+                             <li role="menuitem"><a href="#!/memoria" id="memoriac.revolver" > Memoria </a>
                                 <ul> 
                                   
-                                    <li role="menuitem"><a href="#!/memoria" display:done> Nivel 1</a></li>
-                                    <li role="menuitem"><a href="#!/memoria"> Nivel 2</a></li>
+                                    <li role="menuitem"><a href="#!/nivel1" ng-click="memoriac.nivel1" id="memoriac.revolver" > Nivel1</a></li>
+                                    <li role="menuitem"><a href="#!/nivel2" > Nivel2</a></li>
                               
                          </ul>
                     </li> 

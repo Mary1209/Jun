@@ -7,7 +7,7 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
             $window.document.title = 'Jun - Memoria';
             i18nService.setCurrentLang('es');
             
-            mi.punteo = 10;
+            mi.punteo = 20;
             mi.flip1 = false;
             mi.flip2 = false;
             mi.flip3 = false;
@@ -30,8 +30,8 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
             mi.flip20 = false;
             
             mi.cartas = [];
-            mi.cartas[1] = {};          
-            
+           // mi.cartas[1] = {};          
+           {
             mi.cartas[1] = "assets/img/1.png";
             mi.cartas[2] = "assets/img/2.png";
             mi.cartas[3] = "assets/img/3.png";
@@ -52,7 +52,7 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
             mi.cartas[18] = "assets/img/18.png";
             mi.cartas[19] = "assets/img/19.png";
             mi.cartas[20] = "assets/img/20.png";
-            
+        }
             
             
             
@@ -123,11 +123,37 @@ app.controller('memoriaController',['$scope','$http','$interval','i18nService','
                         break;  
                 }
                 
+                mi.nivel1=function(cartas)
+                {
+         
+                 id: cartas;
+                 NUM_COLS: 4;
+                 NUM_ROWS: 2;
+                }
+                
+                mi.nivel2=function(cartas)
+                {
+                   id:cartas;
+                   NUM_COLS: 4;
+                   NUM_ROWS: 2;
+                }
+    
+                
+             
+              
+              function numeroAleatorio(max, min) {
+                 var aleatorio = Math.floor(Math.random() * 20 (max - min + 1) - min);
+                    return aleatorio;
+                        }
+
+
                 
                 
-            }
+                
+            
+                     }
 			
-			
-} ]);
+			}
+                    ]);
 
 

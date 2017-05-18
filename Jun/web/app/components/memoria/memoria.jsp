@@ -391,14 +391,13 @@
 	
 	<div ng-controller="memoriaController as memoriac" class="maincontainer all_page" id="title">
 		 
-				
+        <div id="memoriac.revolver" >		
 		
             <h3>Juego de Memoria</h3><br/> 
             <table align="center" WIDTH="45%" border="3" bordercolor="lime" cellspacing="0">
-                    <tr >
-                    <td >
-                      
-                    <div class="flip-container" ng-click="memoriac.voltearCarta(1)" ng-class="{'clicked': memoriac.flip1}">
+             <tr >
+                <td > 
+                    <div class="flip-container"  ng-click="memoriac.voltearCarta(1)" ng-class="{'clicked': memoriac.flip1}">
                     <div class="flipper">
                         
                            
@@ -411,11 +410,9 @@
                     </div>
                     </div>
                     
-                    </td>
-                      
-                        <td>
-                         
-                        <div class="flip-container" ng-click="memoriac.voltearCarta(2)" ng-class="{'clicked': memoriac.flip2}">
+                    </td>  
+                 <td> 
+                        <div class="flip-container"  ng-click="memoriac.voltearCarta(2)" ng-class="{'clicked': memoriac.flip2}">
                         <div class="flipper">
                            
                         <div class="front" style="background: lightblue;">
@@ -428,87 +425,72 @@
                         </div>
                         </div>  
                          
-                        </td>
-                            <td>
+                     </td>
+                 <td>
                                  
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(3)" ng-class="{'clicked': memoriac.flip3}">
-                            <div class="flipper">
-                           
-                            <div class="front" style="background: lightblue;">
-                            <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
-                            </div>
-                             <div class="back" style="background: lightgreen;">
-                                 <img src="{{ memoriac.cartas[3] }}" style=" width: 100px ; height: 110px ;">
-
-                            </div>
-                            </div>
-                            </div>  
-                                
-                            </td>  
-                  
-                     
-                            
-                            
-                    
-                    <td>    
-                          
-                    <div class="flip-container" ng-click="memoriac.voltearCarta(4)" ng-class="{'clicked': memoriac.flip4}">
+                    <div class="flip-container"  ng-click="memoriac.voltearCarta(3)" ng-class="{'clicked': memoriac.flip3}">
                     <div class="flipper">
                            
                     <div class="front" style="background: lightblue;">
                     <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                     </div>
                     <div class="back" style="background: lightgreen;">
-                        <img src="{{ memoriac.cartas[4] }}" style=" width: 100px ; height: 110px ;">
+                    <img src="{{ memoriac.cartas[3] }}" style=" width: 100px ; height: 110px ;">
 
-                    </div>   
-                    </div>   
-                    </div> 
-                         
-                    </td>
-                  
-                        <td>
-                            
-                         <div class="flip-container" ng-click="memoriac.voltearCarta(5)" ng-class="{'clicked': memoriac.flip5}">
+                    </div>
+                    </div>
+                    </div>  
+                                
+                    </td>        
+                    
+                 <td>      
+                        <div class="flip-container"  ng-click="memoriac.voltearCarta(4)" ng-class="{'clicked': memoriac.flip4}">
                         <div class="flipper">
                            
                         <div class="front" style="background: lightblue;">
                         <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
-                         </div>
+                        </div>
                         <div class="back" style="background: lightgreen;">
-                            <img src="{{ memoriac.cartas[5] }}" style=" width: 100px ; height: 110px ;">
+                        <img src="{{ memoriac.cartas[4] }}" style=" width: 100px ; height: 110px ;">
+
+                        </div>   
+                        </div>   
+                        </div> 
+                         
+                         </td>
+                   <td>    
+                        <div class="flip-container"  ng-click="memoriac.voltearCarta(5)" ng-class="{'clicked': memoriac.flip5}">
+                        <div class="flipper">
+                           
+                        <div class="front" style="background: lightblue;">
+                        <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
+                        </div>
+                        <div class="back" style="background: lightgreen;">
+                        <img src="{{ memoriac.cartas[5] }}" style=" width: 100px ; height: 110px ;">
 
                         </div>   
                         </div>   
                         </div> 
                            
                         </td>  
-                        </tr>
+                            </tr>
                         <tr>
-                            <td>
+                     <td>
                               
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(6)" ng-class="{'clicked': memoriac.flip6}">
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(6)" ng-class="{'clicked': memoriac.flip6}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
                             <img src="assets/img/Maya.jpg" style=" width: 100px ; height: 110px ;">
                             </div>
                             <div class="back" style="background: lightgreen;">
-                               <img src="{{ memoriac.cartas[6] }}" style=" width: 100px ; height: 110px ;"> 
+                            <img src="{{ memoriac.cartas[6] }}" style=" width: 100px ; height: 110px ;"> 
                             </div>   
                             </div>   
-                            </div> 
-                                 
-                            </td>  
-                            
-                     
-                    
-                       
-       
-                    
-                    <td>
-                       
-                    <div class="flip-container" ng-click="memoriac.voltearCarta(7)" ng-class="{'clicked': memoriac.flip7}">
+                         </div>    
+                     </td>  
+                <td>   
+                    <div class="flip-container"  ng-click="memoriac.voltearCarta(7)" ng-class="{'clicked': memoriac.flip7}">
                     <div class="flipper">
                            
                     <div class="front" style="background: lightblue;">
@@ -521,8 +503,7 @@
                     </div>  
                         
                     </td>
-                         <td>
-                              
+                 <td>      
                         <div class="flip-container" ng-click="memoriac.voltearCarta(8)" ng-class="{'clicked': memoriac.flip8}">
                         <div class="flipper">
                            
@@ -537,11 +518,8 @@
                         </div>  
                            
                         </td>
-                        
-                        
-                            <td>
-                               
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(9)" ng-class="{'clicked': memoriac.flip9}">
+                    <td>  
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(9)" ng-class="{'clicked': memoriac.flip9}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -554,11 +532,7 @@
                             </div>  
                            
                          </td>
-                   
-                    
-                    
-                    <td>
-                                 
+                    <td>    
                             <div class="flip-container" ng-click="memoriac.voltearCarta(10)" ng-class="{'clicked': memoriac.flip10}">
                             <div class="flipper">
                            
@@ -573,13 +547,10 @@
                             </div>  
                                 
                             </td>  
-                            </tr>
-                            <tr>
-                    
-                  
-                    <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(11)" ng-class="{'clicked': memoriac.flip11}">
+                     </tr>        
+                 <tr>
+                     <td>   
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(11)" ng-class="{'clicked': memoriac.flip11}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -590,12 +561,9 @@
 
                             </div>
                             </div>
-                            </div>  
-                                
-                            </td> 
-     
-                        <td>
-                                 
+                            </div>    
+                      </td> 
+                    <td>    
                             <div class="flip-container" ng-click="memoriac.voltearCarta(12)" ng-class="{'clicked': memoriac.flip12}">
                             <div class="flipper">
                            
@@ -607,15 +575,10 @@
 
                             </div>
                             </div>
-                            </div>  
-                                
-                            </td>  
-                            
-                        
-                        
-                            <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(13)" ng-class="{'clicked': memoriac.flip13}">
+                            </div>         
+                    </td>  
+                        <td>      
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(13)" ng-class="{'clicked': memoriac.flip13}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -626,12 +589,10 @@
 
                             </div>
                             </div>
-                            </div>  
-                                
-                            </td>
-                                <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(14)" ng-class="{'clicked': memoriac.flip14}">
+                            </div>   
+                         </td>
+                      <td>    
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(14)" ng-class="{'clicked': memoriac.flip14}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -642,12 +603,10 @@
 
                             </div>
                             </div>
-                            </div>  
-                                
-                            </td>  
-                             <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(15)" ng-class="{'clicked': memoriac.flip15}">
+                            </div>    
+                        </td>  
+                       <td> 
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(15)" ng-class="{'clicked': memoriac.flip15}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -659,13 +618,11 @@
                             </div>
                             </div>
                             </div>  
-                                
-                            </td>  
-                            </tr>
-                            <tr>
-                                 <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(16)" ng-class="{'clicked': memoriac.flip16}">
+                         </td>  
+                       </tr>
+                     <tr>
+                        <td>   
+                            <div class="flip-container"   ng-click="memoriac.voltearCarta(16)" ng-class="{'clicked': memoriac.flip16}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -678,11 +635,9 @@
                             </div>
                             </div>  
                                 
-                            </td>   
-                       
-                                <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(17)" ng-class="{'clicked': memoriac.flip17}">
+                        </td>   
+                     <td>  
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(17)" ng-class="{'clicked': memoriac.flip17}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -695,10 +650,9 @@
                             </div>
                             </div>  
                                 
-                            </td>  
-                            <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(18)" ng-class="{'clicked': memoriac.flip18}">
+                          </td>  
+                        <td>    
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(18)" ng-class="{'clicked': memoriac.flip18}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -709,12 +663,10 @@
 
                             </div>
                             </div>
-                            </div>  
-                                
-                            </td>  
-                            <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(19)" ng-class="{'clicked': memoriac.flip19}">
+                         </div>         
+                       </td>  
+                     <td>      
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(19)" ng-class="{'clicked': memoriac.flip19}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -727,10 +679,9 @@
                             </div>
                             </div>  
                                 
-                            </td>  
-                            <td>
-                                 
-                            <div class="flip-container" ng-click="memoriac.voltearCarta(20)" ng-class="{'clicked': memoriac.flip20}">
+                        </td>  
+                    <td>    
+                            <div class="flip-container"  ng-click="memoriac.voltearCarta(20)" ng-class="{'clicked': memoriac.flip20}">
                             <div class="flipper">
                            
                             <div class="front" style="background: lightblue;">
@@ -744,9 +695,9 @@
                             </div>  
                                 
                             </td>  
-                                </tr>
+                        </tr>
                     
-                    
+                    </div>
                     
                 </table>
                               
